@@ -124,6 +124,12 @@ git config --global user.email "YOUR EMAIL ADDRESS"</code></pre>
                 </li>
               </ol>
             </div> 
+
+            <div class="light-blue-bg container push-top push-bottom">
+              <h2 id="bonus">3. Bonus</h2>
+              <p>By default, Git commands are only accessible in Git Bash. To make them available in Windows PowerShell as well, follow the instructions at <a href="https://git-scm.com/book/uz/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Powershell">https://git-scm.com/book/uz/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Powershell</a>.</p>
+            </div>
+          </div> 
             
             <div class="light-blue-bg container push-top push-bottom">
                 
@@ -154,7 +160,7 @@ git config --global user.email "YOUR EMAIL ADDRESS"</code></pre>
                   <li><p>Students with an existing, outdated installation of Node can update their install by following the directions above (i.e., using the package installer).</p></li> -->
 
                   <li><p><code>Permission denied (publickey)</code>: Use the following command to manually add the key to the keychain:</p>
-                    <pre><code class="bash language-bash">ssh-add ~/.ssh/id_rsa_ga</code></pre>
+                    <pre><code class="bash language-bash">ssh-add -K ~/.ssh/id_rsa_ga</code></pre>
                     <p>Then retry your previous command.</p>
                     
                     <!-- follow the troubleshooting steps at <a href="https://help.github.com/enterprise/2.14/user/articles/error-permission-denied-publickey/">https://help.github.com/enterprise/2.14/user/articles/error-permission-denied-publickey/</a>. -->
